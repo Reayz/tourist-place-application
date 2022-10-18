@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+option csharp_namespace = "APIGrpcServer";
+
+package places;
+
+service Places {
+  rpc GetAllPlaces (Empty) returns (PlaceResponse);
+
+  rpc GetDetails (PlaceIDRequest) returns (SinglePlace);
+
+  rpc AddPlace (SinglePlace) returns (SinglePlace);
+
+  rpc DeletePlace (PlaceIDRequest) returns (Empty);
+
+  rpc UpdatePlace (SinglePlace) returns (Empty);
+}
+
+message Empty {
+
+}
+
+message SinglePlace {
+  int32 PlaceID = 1;
+  string Name = 2;
+  string Address = 3;
+  int32 Rating = 4;
+  string Type = 5;
+  string Picture = 6;
+}
+
+message PlaceResponse {
+	repeated SinglePlace Places = 1;
+}
+
+message PlaceIDRequest {
+	int32 PlaceID = 1;
+}

@@ -1,0 +1,212 @@
+.App {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Dashboard {
+  margin: 30px 200px;
+  text-align: left;
+}
+
+.LoadingText {
+  font-weight: normal;
+}
+
+.PlacesTable thead td{
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  height: 50px;
+  font-weight: bold;
+  min-width: 150px;
+}
+
+.PlacesTable tbody td{
+  height: 100px;
+  min-width: 150px;
+}
+
+.PlacesTable tbody tr:nth-child(odd) td{
+  background-color: white;
+  color: black;
+}
+.PlacesTable tbody tr:nth-child(even) td{
+  background-color: rgb(252, 237, 237);
+  color: black;
+}
+
+.PlacesTable {
+  height: auto;
+  border: black 2px solid;
+  text-align: center;
+}
+
+.PlacesTable button {
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  margin: 10px;
+  border-radius: 10px;
+  width: 100px;
+  padding: 15px;
+  font-weight: bold;
+  border: none;
+  box-shadow: 2px 2px grey;
+}
+
+.PlaceImage {
+  max-width: 200px;
+  max-height: 200px;
+  padding: 5px;
+}
+
+.UpdateBtn {
+  background-color: rgb(108, 143, 206) !important;
+  right: 39%;
+} 
+
+.DeleteBtn {
+  background-color: rgb(219, 80, 80) !important;
+  right: 31%;
+}
+
+.SearchBox {
+  background-color: rgb(252, 237, 237);
+  color: gray;
+  height: 30px;
+  width: 50%;
+  border-radius: 10px;
+  padding: 5px 15px;
+  border: none;
+  box-shadow: -2px -2px gray;
+  margin-bottom: 15px;
+}
+
+.CreateBtn {
+  cursor: pointer;
+  background-color: rgb(108, 143, 206);
+  color: white;
+  height: 50px;
+  width: 20%;
+  border-radius: 10px;
+  padding: 7px;
+  font-weight: bold;
+  border: none;
+  box-shadow: 2px 2px grey;
+  margin-top: 15px;
+}
+
+.NewPlace {
+  margin: 50px 215px;
+  text-align: left;
+}
+
+.NewPlace label {
+  display: inline-block;
+  min-width: 100px;
+}
+
+.NewPlace div {
+  margin: 30px;
+}
+
+.NewPlace input {
+  height: 25px;
+  width: 70%;
+  padding: 10px;
+  background-color: rgb(252, 237, 237);;
+  border-radius: 10px;
+  border: none;
+  box-shadow: -2px -2px gray;
+}
+
+.NewPlace button {
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  margin: 10px;
+  border-radius: 10px;
+  width: 100px;
+  padding: 15px;
+  font-weight: bold;
+  border: none;
+  box-shadow: 2px 2px grey;
+}
+
+.Buttons {
+  text-align: right;
+  margin-right: 232px !important;
+}
+
+.NewPlace button[type=submit] {
+  background-color: rgb(72, 155, 72);
+} 
+
+.NewPlace button[type=reset] {
+  background-color: rgb(241, 184, 76);
+}
+
+.TitleDiv {
+  text-align: center;
+}
+
+.Title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.BackBtnDiv {
+  margin-right: 238px !important;
+  text-align: right;
+}
+
+.BackBtn {
+  text-decoration: underline;
+  color: rgb(48, 98, 235);
+}
+
+.Range {
+  margin-left: 15px;
+  font-weight: bold;
+  color: red;
+}
+
+.FileLabel {
+  margin-left: 15px;
+  font-weight: bold;
+}

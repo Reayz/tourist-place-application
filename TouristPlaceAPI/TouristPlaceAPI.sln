@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TouristPlaceAPI", "TouristPlaceAPI.csproj", "{EE92CDF3-F7CC-4DC1-B804-469B788F39E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIGrpcService", "..\APIGrpcService\APIGrpcService.csproj", "{A3DA6C34-5354-45A3-8261-E1F9F299BC61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE92CDF3-F7CC-4DC1-B804-469B788F39E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE92CDF3-F7CC-4DC1-B804-469B788F39E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE92CDF3-F7CC-4DC1-B804-469B788F39E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE92CDF3-F7CC-4DC1-B804-469B788F39E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3DA6C34-5354-45A3-8261-E1F9F299BC61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3DA6C34-5354-45A3-8261-E1F9F299BC61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3DA6C34-5354-45A3-8261-E1F9F299BC61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3DA6C34-5354-45A3-8261-E1F9F299BC61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18AFD908-0186-4530-A675-57CE5B74B56A}
+	EndGlobalSection
+EndGlobal
